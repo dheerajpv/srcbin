@@ -3,7 +3,7 @@
     "publisher": "dheerajpv",
     "displayName": "Sourcebin Uploader",
     "description": "Uploads Code Selection to SourceBin.",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "MIT",
     "repository": "github:dheerajpv/srcbin",
     "keywords": [
