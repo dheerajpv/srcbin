@@ -5,6 +5,7 @@
     "description": "Uploads Code Selection to SourceBin.",
     "version": "1.0.0",
     "license": "MIT",
+    "repository": "github:dheerajpv/srcbin",
     "keywords": [
         "bin",
         "sourcebin",
