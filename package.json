@@ -1,7 +1,7 @@
 {
     "name": "srcbin",
     "publisher": "dheerajpv",
-    "displayName": "Sourcein Uploader",
+    "displayName": "Sourcebin Uploader",
     "description": "Uploads Code Selection to SourceBin.",
     "version": "1.0.0",
     "license": "MIT",
