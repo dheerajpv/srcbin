@@ -18,5 +18,8 @@ All notable changes to the "srcbin" extension will be documented in this file.
 ## [1.0.3]
 
 -   Added icon to extension
+
+## [1.0.4]
+
 -   Added LICENSE
 -   Made README better
