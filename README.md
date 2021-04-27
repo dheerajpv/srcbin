@@ -27,4 +27,4 @@ Clicking on it will trigger the command.
 This extension also has a command that can be accessed using the command palette (cmd/ctrl - shift - P).
 Running the `Upload to Bin` command will also trigger the command.
 
-<center> --- <small>Built with ♥ by <a href="https://github.com/dheerajpv">dheerajpv</a></small> --- </center>
+<p align="center"> --- <small>Built with ♥ by <a href="https://github.com/dheerajpv">dheerajpv</a></small> --- </p>
