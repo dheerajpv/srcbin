@@ -2,10 +2,14 @@
     "name": "srcbin",
     "publisher": "dheerajpv",
     "displayName": "Sourcebin Uploader",
+    "icon": "icon.png",
     "description": "Uploads Code Selection to SourceBin.",
     "version": "1.0.2",
     "license": "MIT",
-    "repository": "github:dheerajpv/srcbin",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/dheerajpv/srcbin"
+    },
     "keywords": [
         "bin",
         "sourcebin",

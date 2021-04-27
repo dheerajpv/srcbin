@@ -1,3 +1,5 @@
+![icon](icon.png)
+
 # Sourcebin Uploader
 
 This extension uploads the current selection or the entire file text to [SourceBin](https://srcb.in/).
