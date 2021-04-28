@@ -7,9 +7,9 @@ import { sep } from "path";
 
 export function activate(context: ExtensionContext) {
     const commandId = "srcbin.upload";
-    console.log("active");
 
-    let disposable = commands.registerCommand(commandId, async () => {
+    // register command "srcbin.upload" to upload selection to sourcebin
+    const disposable = commands.registerCommand(commandId, async () => {
         const editor = window.activeTextEditor;
 
         const fileName = editor?.document.fileName.split(sep).reverse()[0];
@@ -61,7 +61,7 @@ export function activate(context: ExtensionContext) {
             copied = true;
         } catch (e) {}
 
-        let message = `${
+        const message = `${
             selection ? "Selection" : "File"
         } uploaded to Sourcebin. ${
             copied ? "Copied Link successfully" : "Error Copying Link"
@@ -72,15 +72,17 @@ export function activate(context: ExtensionContext) {
             : window.showWarningMessage(message);
     });
 
+    // create status bar button as a shortcut
     const statusBarItem = window.createStatusBarItem(
         StatusBarAlignment.Right,
         1000
     );
     statusBarItem.command = commandId;
     statusBarItem.text = "Upload to Bin";
-    statusBarItem.tooltip = "Upload selection/file to sourcebin";
+    statusBarItem.tooltip = "Upload selection/file to SourceBin";
     statusBarItem.show();
 
+    // push command and button to VSCode
     context.subscriptions.push(disposable);
     context.subscriptions.push(statusBarItem);
 }

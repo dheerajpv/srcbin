@@ -23,3 +23,7 @@ All notable changes to the "srcbin" extension will be documented in this file.
 
 -   Added LICENSE
 -   Made README better
+
+## [1.0.5]
+
+-   Minor optimization
